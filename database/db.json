@@ -1,0 +1,114 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Mariano",
+      "apellido": "bentivegna",
+      "email": "admin@mail.com",
+      "password": "123456",
+      "token": "SzUmekQjkKpDzYdJ9PnBcx7H8PEvTqZcfTifhQfg",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "nombre": "Lionel",
+      "apellido": "Scaloni",
+      "email": "test@mail.com",
+      "password": "123456",
+      "token": "Rmy8UP3EnFbLMM7kZxN3pdeL44wmDYCSGYRiMEFm",
+      "role": "user"
+    }
+  ],
+  "cursos": [
+    {
+      "id": 1,
+      "subjectId": 1,
+      "fecha_fin": "2023-05-02T01:27:59.631Z",
+      "fecha_inicio": "2023-05-10T01:27:59.631Z"
+    },
+    {
+      "id": 2,
+      "subjectId": 2,
+      "fecha_fin": "2023-05-02T01:27:59.631Z",
+      "fecha_inicio": "2023-05-10T01:27:59.631Z"
+    },
+    {
+      "id": 3,
+      "subjectId": 3,
+      "fecha_fin": "2023-05-02T01:27:59.631Z",
+      "fecha_inicio": "2023-05-10T01:27:59.631Z"
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "nombre": "Angular",
+      "description": "Curso de Angular con duración de 2 meses."
+    },
+    {
+      "id": 2,
+      "nombre": "Desarrollo Web",
+      "description": "Curso de Desarrollo Web con duración de 2 meses."
+    },
+    {
+      "id": 3,
+      "nombre": "Javascript",
+      "description": "Curso de Javascript con duración de 2 meses."
+    }
+  ],
+  "inscriptions": [
+    {
+      "id": 1,
+      "subjectId": 2,
+      "studentId": 1,
+      "courseId": 2
+    },
+    {
+      "subjectId": 1,
+      "studentId": 3,
+      "courseId": 1,
+      "id": 2
+    },
+    {
+      "subjectId": 1,
+      "studentId": 2,
+      "courseId": 1,
+      "id": 3
+    },
+    {
+      "subjectId": 2,
+      "studentId": 1,
+      "courseId": 2,
+      "id": 4
+    },
+    {
+      "subjectId": 3,
+      "studentId": 2,
+      "courseId": 3,
+      "id": 5
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "nombre": "Emiliano",
+      "apellido": "Martinez",
+      "fecha_nacimiento": "1992-09-02T01:27:59.631Z",
+      "email": "dibu@gmail.com"
+    },
+    {
+      "id": 2,
+      "nombre": "Paulo",
+      "apellido": "Dybala",
+      "fecha_nacimiento": "1993-11-15T01:27:59.631Z",
+      "email": "pdybala@gmail.com"
+    },
+    {
+      "id": 3,
+      "nombre": "Lionel",
+      "apellido": "Messi",
+      "fecha_nacimiento": "1987-06-24T01:27:59.631Z",
+      "email": "lmessi10@gmail.com"
+    }
+  ]
+}
